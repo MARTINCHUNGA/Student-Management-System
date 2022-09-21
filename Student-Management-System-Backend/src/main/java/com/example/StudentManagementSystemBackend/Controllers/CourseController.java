@@ -39,7 +39,7 @@ public class CourseController {
 
      //http put request
      @PutMapping("/courses/{id}")
-     public ResponseEntity<Course> updateStudent(@Valid @RequestBody Course course , 
+     public ResponseEntity<Course> updateCourse(@Valid @RequestBody Course course ,
      @PathVariable(value = "id") Long id){
          return ResponseEntity.ok(courseService.updateCourse(course, id));
          
@@ -47,7 +47,7 @@ public class CourseController {
  
      //http delete request
      @DeleteMapping("/courses/{id}")
-     public ResponseEntity<?> deleteStudent(@PathVariable Long id){
+     public ResponseEntity<?> deleteCourse(@PathVariable Long id){
          Map<String, String> response = new HashMap<String, String>();
          if(courseService.deleteCourse(id)){
              response.put("status", "success");

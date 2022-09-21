@@ -29,15 +29,15 @@ public class StudentService {
         return studentRepository.save(student);
     }
 
-    public Student updatStudent(Student student, Long id){
-        Student updatStudent = studentRepository.findById(id).orElse(null);
+    public Student updateStudent(Student student, Long id){
+        Student updateStudent = studentRepository.findById(id).orElse(null);
 
-        if(updatStudent != null){
-            updatStudent.setFirstName(student.getFirstName());
-            updatStudent.setLastName(student.getLastName());
+        if(updateStudent != null){
+            updateStudent.setFirstName(student.getFirstName());
+            updateStudent.setLastName(student.getLastName());
         }
 
-        final Student myStudent = studentRepository.save(updatStudent);
+        final Student myStudent = studentRepository.save(updateStudent);
         return myStudent;
     }
 
