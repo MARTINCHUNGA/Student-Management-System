@@ -1,4 +1,4 @@
-package com.example.StudentManagementSystemBackend.Models;
+package com.example.StudentManagementSystemBackend.student;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
