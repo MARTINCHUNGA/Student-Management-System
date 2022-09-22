@@ -1,11 +1,9 @@
-package com.example.StudentManagementSystemBackend.courses;
+package com.example.StudentManagementSystemBackend.course;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.example.StudentManagementSystemBackend.Models.Course;
 
 //provide business logic in this class
 @Service

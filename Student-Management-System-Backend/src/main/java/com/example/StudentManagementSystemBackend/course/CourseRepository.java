@@ -1,9 +1,7 @@
-package com.example.StudentManagementSystemBackend.courses;
+package com.example.StudentManagementSystemBackend.course;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.example.StudentManagementSystemBackend.Models.Course;
 
 @Repository("CourseRepository")
 public interface CourseRepository extends JpaRepository<Course, Long> {
