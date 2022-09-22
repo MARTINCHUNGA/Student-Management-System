@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.StudentManagementSystemBackend.Models.Course;
-import com.example.StudentManagementSystemBackend.Repositories.CourseRepository;
 
 //provide business logic in this class
 @Service

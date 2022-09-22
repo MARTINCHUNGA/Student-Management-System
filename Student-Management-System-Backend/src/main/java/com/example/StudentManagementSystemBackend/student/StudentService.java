@@ -5,8 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.StudentManagementSystemBackend.Models.*;
 
-import com.example.StudentManagementSystemBackend.Repositories.StudentRepository;
-
 import java.util.List;
 
 

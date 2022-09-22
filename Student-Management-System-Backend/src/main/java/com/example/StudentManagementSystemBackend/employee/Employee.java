@@ -1,4 +1,4 @@
-package com.example.StudentManagementSystemBackend.employe;
+package com.example.StudentManagementSystemBackend.employee;
 
 import lombok.Data;
 
