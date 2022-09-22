@@ -1,4 +1,4 @@
-package com.example.StudentManagementSystemBackend.Controllers;
+package com.example.StudentManagementSystemBackend.student;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Services.StudentService;
 import com.example.StudentManagementSystemBackend.Models.Student;
 
 @RestController

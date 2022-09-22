@@ -1,4 +1,4 @@
-package com.example.Services;
+package com.example.StudentManagementSystemBackend.courses;
 
 import java.util.List;
 

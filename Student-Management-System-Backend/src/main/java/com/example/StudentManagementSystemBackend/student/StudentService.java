@@ -1,4 +1,4 @@
-package com.example.Services;
+package com.example.StudentManagementSystemBackend.student;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
